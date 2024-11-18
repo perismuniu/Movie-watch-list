@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
+    font-family: "Inter", serif;
+}
+
+main {
+    max-width: 550px;
+    margin: 0 auto;
+    color: white;
+    height: 800px;
+    background-color: #121212;
+}
+
+.nav-information {
+    background-image: url(images/movies-header.jpg);
+    background-size: 550px 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav h1 {
+    margin-top: 4.5em;
+    margin-bottom: 1em;
+    font-size: 2.625rem;
+    font-weight:bolder;
+    
+}
+
+.nav p {
+    margin-top: 15em;
+    font-weight: bold;
+    font-size: 0.875rem;    
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", serif;
+}
+
+.search input,
+.search button {
+    height:38px;
+    border: none;
+    font-size: 0.875rem;
+}
+
+.search input {
+    width: 342px;
+    background-color: #2E2E2F;
+    padding-left: 2.5em;
+    color: #9CA3AF;
+    border-radius: 10px 0 0 10px;
+}
+
+.search button {
+    width: 120px;
+    background-color: #4B4B4B;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 10px;
+}
+
+.start-exploring {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10em;
+   color: #2E2E2F;
+   font-size: 1.125rem;
+   font-weight: bold;
+}
+
+.start-exploring img {
+    width: 70px;
+    height: 60px;
+}
